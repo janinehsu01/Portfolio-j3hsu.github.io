@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Schedule for Janine-j3hsu-Fall Quarter,2023
+    </title>
+    <link rel="stylesheet" href="css/styleLab2.css">
+  </head>
+
+  <body>
+    <h1>Lab 2</h1>
+    <h2>Definitions</h2>
+    <dl>
+      <dt>Define a table</dt>
+      <dd>A table in html is defined by a &lt;table&gt; tag and uses rows and columns to present tabular data</dd>
+      <dd>&lt;tr&gt; indicates how many rows the table has</dd>
+      <dd>&lt;th&gt; indicates the table header</dd>
+      <dd>&lt;td&gt; indicats how many cells each row of the table has</dd>
+      <dd>&lt;thead&gt; indicates the head content of the table</dd>
+      <dd>&lt;tfoot&gt; indicates the footer content of the table</dd>
+      <dd>&lt;caption&gt; is used to add a caption to the top of the table</dd>
+      <dt>Difference between colspan and rowspan</dt>
+      <dd>Colspan indicates how many columns the cells in the table need to span</dd>
+      <dd>Rowspan indicates how many rows the cells in the table need to span</dd>
+
+      <dt>Difference between cells spacing and padding</dt>
+      <dd>Cells spacing is the space between each cell in the table</dd>
+      <dd>Cells padding is the space between the cell content and the cell edge</dd>
+
+      <dt>Define table borders using CSS</dt>
+      <dd>Use the border property to indicate what type of border it is and how thick and thin the border is</dd>
+      <dt>Control border widths using CSS</dt>
+      <dd>Use the width property to change the width of the border</dd>
+    </dl>
+
+    <h2>Table</h2>
+    <table border="1">
+      <caption>2023 Fall Schedule</caption>
+      <tr>
+        <th>Time</th>
+        <th>Mon</th>
+        <th>Tues</th>
+        <th>Wed</th>
+        <th>Thurs</th>
+        <th>Fri</th>
+        <th>Sat/Sun</th>
+      </tr>
+
+      <tr>
+        <td class="time">9am</td>
+        <td></td>
+        <td></td>
+        <td rowspan="2">
+          <a href="https://catalog.ucsd.edu/courses/MUS.html" target="blank">MUS1A</a>
+        </td>
+        <td></td>
+        <td rowspan="2">
+          <a href="https://catalog.ucsd.edu/courses/MUS.html" target="blank">MUS1A</a>
+        </td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="time">9:30</td>
+        <td></td>
+        <td></td>
+        <!--<td>MUS1A</td>-->
+        <td></td>
+        <!--<td>MUS1A</td>-->
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="time">10am</td>
+        <td rowspan="2">
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html" target="blank">CHEM7L</a>
+        </td>
+        <td></td>
+        <td rowspan="2">
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html" target="blank">CHEM7L</a>
+        </td>
+        <td></td>
+        <td class=img-library rowspan="4">
+          Library
+          <br>
+          <img class="library" src="images/library.jpg">
+        </td>
+        <td class="img-heading" rowspan="4">
+          Exercise
+          <br>
+          <img class="exercise" src="images/exercise.jpg">
+          </td>
+      </tr>
+
+      <tr>
+        <td class="time">10:30</td>
+        <!--<td>CHEM7L</td>-->
+        <td></td>
+        <!--<td>CHEM7L</td>-->
+        <td></td>
+        <!--<td>Library</td>-->
+        <!--<td>Exercise</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">11am</td>
+        <td></td>
+        <td rowspan="3">  
+          <a href="https://catalog.ucsd.edu/courses/MUS.html" target="blank">MUS1A</a>
+        </td>
+        <td></td>
+        <td rowspan="3">
+          <a href="https://catalog.ucsd.edu/courses/MUS.html" target="blank">MUS1A</a>
+        </td>
+        <!--<td>Library</td>-->
+        <!--<td>Exercise</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">11:30</td>
+        <td></td>
+        <!--<td>MUS1A</td>-->
+        <td></td>
+        <!--<td>MUS1A</td>-->
+        <!--<td>Library</td>-->
+        <!--<td>Exercise</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">12pm</td>
+        <td rowspan="2">
+          <a href="https://catalog.ucsd.edu/courses/PHYS.html" target="blank">PHYS1A</a>
+        </td>
+        <!--<td>MUS1A</td>-->
+        <td rowspan="2">
+          <a href="https://catalog.ucsd.edu/courses/PHYS.html" target="blank">PHYS1A</a>
+        </td>
+        <!--<td>MUS1A</td>-->
+        <td rowspan="2">
+          <a href="https://catalog.ucsd.edu/courses/PHYS.html" target="blank">PHYS1A</a>
+        </td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="time">12:30</td>
+        <!--<td>PHYS1A</td>-->
+        <td></td>
+        <!--<td>PHYS1A</td>-->
+        <td></td>
+        <!--<td>PHYS1A</td>-->
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="time">1pm</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="time">1:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="time">2pm</td>
+        <td rowspan="6">
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html" target="blank">CHEM7L</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="blank">COGS3</a> </td>
+        <td rowspan="6">
+          <a href="https://catalog.ucsd.edu/courses/CHEM.html" target="blank">CHEM7L</a>
+        </td>
+        <td rowspan="3">
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html"
+          target="blank">COGS3</a> </td>
+        <td class="img-heading" rowspan="7" colspan="2">
+          Study
+          <br>
+          <img class="study" src="images/study.jpg">
+        </td>
+        <!--<td>Study</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">2:30</td>
+        <!--<td>CHEM7L</td>-->
+        <!--<td>COGS3</td>-->
+        <!--<td>CHEM7L</td>-->
+        <!--<td>COGS3</td>-->
+        <!--<td>Study</td>-->
+        <!--<td>Study</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">3pm</td>
+        <!--<td>CHEM7L</td>-->
+        <!--<td>COGS3</td>-->
+        <!--<td>CHEM7L</td>-->
+        <!--<td>COGS3</td>-->
+        <!--<td>Study</td>-->
+        <!--<td>Study</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">3:30</td>
+        <!--<td>CHEM7L</td>-->
+        <td></td>
+        <!--<td>CHEM7L</td>-->
+        <td></td>
+        <!--<td>Study</td>-->
+        <!--<td>Study</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">4pm</td>
+        <!--<td>CHEM7L</td>-->
+        <td></td>
+        <!--<td>CHEM7L</td>-->
+        <td rowspan="4">
+          <a href="https://catalog.ucsd.edu/courses/PHYS.html" target="blank">PHYS1AL</a>
+        </td>
+        <!--<td>Study</td>-->
+        <!--<td>Study</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">4:30</td>
+        <!--<td>CHEM7L</td>-->
+        <td></td>
+        <!--<td>CHEM7L</td>-->
+        <!--<td>PHYS1AL</td>-->
+        <!--<td>Study</td>-->
+        <!--<td>Study</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">5pm</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <!--<td>PHYS1AL</td>-->
+        <!--<td>Study</td>-->
+        <!--<td>Study</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">5:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <!--<td>PHYS1AL</td>-->
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td class="time">6pm</td>
+        <td rowspan="2">
+          <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="blank">COGS3</a> </td>
+        <td class="img-heading" rowspan="3" colspan="3">
+          Dinner with Friends
+          <br>
+          <img class="friends" src="images/dinner.jpg">
+        </td>
+        <!--<td>Dinner with Friends</td>-->
+        <!--<td>Dinner with Friends</td>-->
+        <td class="img-heading" colspan="2" rowspan="3">
+          Watching TV
+          <br>
+          <img class="TV" src="images/tv.jpg">
+
+        </td>
+        <!--<td>Sat/Sun</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">6:30</td>
+        <!--<td>COGS3</td>-->
+        <!--<td>Dinner with Friends</td>-->
+        <!--<td>Dinner with Friends</td>-->
+        <!--<td>Dinner with Friends</td>-->
+        <!--<td>Watching TV</td>-->
+        <!--<td>Watching TV</td>-->
+      </tr>
+
+      <tr>
+        <td class="time">7pm</td>
+        <td></td>
+        <!--<td>Dinner with Friends</td>-->
+        <!--<td>Dinner with Friends</td>-->
+        <!--<td>Dinner with Friends</td>-->
+        <!--<td>Watching TV</td>-->
+        <!--<td>Watching TV</td>-->
+      </tr>
+
+
+    </table>
+  </body>
+</html>

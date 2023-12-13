@@ -1,0 +1,176 @@
+.nav-item { 
+  font-weight:bold;
+  font-size:1.5rem;
+  padding-left: 1rem;
+  margin-right: 1.5rem;
+  margin-left:1.5rem;
+ 
+  }
+
+
+.nav-link{
+  color:rgb(79, 50, 246)!important;
+}
+
+body{
+  height:100px;
+  background-color:#84CEEB;
+  background-image: linear-gradient(to bottom right,#9ddaf3, #b48ff8);
+  background-attachment:fixed;
+  
+}
+
+h1{
+  text-align: center;
+  margin-top:8rem;
+  margin-bottom: 3rem;
+  font-size: 8rem;
+  color:rgb(222, 36, 120);
+  font-family: 'Berkshire Swash', serif;
+
+}
+
+h2{
+  text-align:center;
+  color:rgb(222, 36, 120);
+  margin-bottom:15rem;
+}
+
+h3{
+  text-align: center;
+  margin-top:2rem;
+  margin-bottom: 3rem;
+  font-size:3rem;
+  color:rgb(94, 5, 188);
+  font-weight: bold;
+  font-family: 'Source Serif 4', serif;
+}
+
+.container{
+  margin-top:15rem;
+  padding-left:5rem;
+  padding-right:5rem;
+}
+
+.container-2{
+  margin-top:10rem;
+}
+
+.card{
+  margin-top: 0.5rem;
+ 
+}
+
+
+
+.left-card-1{
+  margin-left:8rem;
+  padding-right:2rem;
+  margin-right:1rem;
+  background-color:#9ddaf3
+  
+}
+
+.right-card-1{
+  margin-right:8rem;
+  padding-left:2rem;
+  margin-left:1rem;
+  background-color: rgb(237, 180, 245);
+  
+}
+
+.left-card2{
+  margin-left:8rem;
+  padding-right:2rem;
+  margin-right:1rem;
+  background-color: rgb(237, 180, 245);
+  
+}
+
+.right-card2{
+  margin-right:8rem;
+  padding-left:2rem;
+  margin-left:1rem;
+  background-color:#9ddaf3
+  
+  
+}
+
+.left-card-3{
+  margin-left:8rem;
+  padding-right:2rem;
+  margin-right:1rem;
+  margin-bottom: 10rem;
+  background-color:#9ddaf3
+  
+}
+
+.right-card-3{
+  margin-right:8rem;
+  padding-left:2rem;
+  margin-left:1rem;
+  margin-bottom:10rem;
+  background-color: rgb(237, 180, 245);
+  
+}
+
+.image-schedule{
+  padding-left:2rem;
+  padding-top:2rem;
+}
+
+.image-study{
+  padding-right:2rem;
+  padding-top:2rem;
+  
+}
+.image-wedding{
+ padding-left:2rem;
+ padding-top:2rem;
+}
+
+.image-dice{
+  padding-right:2rem;
+  padding-top:2rem;
+}
+
+.btn{
+  background-color: rgb(0, 81, 255);
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 10px 25px;
+}
+
+h5{
+  font-weight:bold;
+  font-size:2.5rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-left{
+  padding-left:2rem;
+}
+
+.text-left{
+  padding-left:2rem;
+}
+
+.btn-left{
+  margin-left:2rem;
+}
+
+
+@media (max-width: 1000px){
+
+  .card{
+    margin-left:2rem;
+    margin-right:2rem;
+  }
+
+
+}

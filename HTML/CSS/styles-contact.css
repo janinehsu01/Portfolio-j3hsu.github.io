@@ -1,0 +1,86 @@
+.nav-item { 
+  font-weight:bold;
+  font-size:1.5rem;
+  padding-left: 1rem;
+  margin-right: 1.5rem;
+  margin-left:1.5rem;
+ 
+  }
+
+.nav-link{
+  color:rgb(79, 50, 246)!important;
+}
+
+body{
+  height:100px;
+  background-color:#84CEEB;
+  background-image: linear-gradient(to bottom right,#9ddaf3, #b48ff8);
+  background-attachment:fixed;
+  
+}
+
+h1{
+  text-align:center;
+  margin-top:6rem;
+  font-family: 'Playpen Sans', cursive;
+  color:rgb(4, 40, 244);
+  font-size:5rem;
+}
+
+.box{
+  border-style: outset;
+  padding: 2rem 2rem 2rem;
+  margin-left:8rem;
+  margin-right:8rem;
+  margin-top:5rem;
+  
+}
+
+h3{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+ 
+}
+
+label{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h3-message{
+  margin-bottom:2rem;
+}
+
+.h3-phone{
+  margin-top:3.5rem;
+}
+
+.h3-basedin{
+  margin-top:3.5rem;
+}
+
+.icon{
+  margin-left:7rem;
+  font-size:larger;
+  text-align:center;
+  margin-top:3.5rem;
+}
+
+@media (max-width: 1000px){
+
+  .icon{
+    margin-left:4rem;
+    text-align:center;
+  }
+
+  .h3-email{
+    margin-top:2rem;
+  }
+
+
+}

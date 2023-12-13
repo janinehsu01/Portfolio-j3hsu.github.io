@@ -1,0 +1,193 @@
+#title {background-color:#FFAEBC;
+  position:relative;
+  z-index:1;
+
+}
+
+.container-fluid {
+  padding:0.5% 5% 0%
+}
+
+h1 {font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color:rgb(240, 85, 85) ;
+  }
+
+
+.navbar{padding:0 0 1.5rem;
+  margin-bottom: 2rem;}
+
+.navbar-brand { font-family: 'Playpen Sans', cursive;
+font-weight:bold;
+font-size:2.5rem;
+padding-left: 1rem;
+color:rgb(47, 1, 47) !important;
+}
+
+.navbar-item {
+  padding:0 20px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Kurale', serif;
+  font-weight:bold;
+  color:purple !important;
+}
+
+.download-button{
+  margin: 3% 5% 5% 0%
+}
+
+.title-image{
+  width:30%;
+  padding-left:10%;
+  transform:rotate(20deg);
+  position:relative;
+  z-index:2;
+}
+
+
+
+#features {
+margin-top:-8rem;
+padding:3% 10% 1%;
+background-color: white;
+position:relative;
+z-index:3;
+
+}
+
+.feature-box{text-align:center;
+padding:5%;}
+
+h3 {font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 1.6rem;}
+
+p{color:rgb(99, 98, 98);}
+
+.icon {margin-bottom: 2rem;
+color:indigo;}
+
+.icon:hover{
+  color:#FFAEBC}
+
+#testimonials{
+padding:5% 15%;
+text-align:center;
+background-color:#FFAEBC;
+}
+
+h2{font-family: 'Arvo', serif;
+  font-size:2.7rem;
+  font-weight:bold;
+  color:#F9F1F0;
+  padding-bottom:5%}
+
+.testimonial-image{
+  width: 20%;
+  border-radius:40%;
+}
+
+.press-logo{
+  filter:saturate(7);
+  filter: hue-rotate(50deg);
+}
+
+
+#press {
+  background-color:#FFAEBC;
+  text-align:center;
+}
+
+.press-logo{
+  width:10%;
+  margin: 5px 50px 35px;
+}
+
+.carousel-item{
+  height:390px;
+  padding:5% 10% 5%;
+}
+
+#pricing {
+  padding:80px;
+  text-align:center;
+}
+
+.pricing-header{
+  font-family: 'Arvo', serif;
+  color:black;
+}
+
+.card-header{
+  background-color: aqua;
+}
+
+.card-body{
+  background-color: rgb(191, 248, 229);
+}
+
+.pricing-header{
+  font-family: 'Arvo', serif;
+  margin:-1rem;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.price{
+  color:black;
+}
+
+#cta{
+  background-color:#FFAEBC ;
+  color:whitesmoke;
+  padding:5% 10% 1%;  
+  text-align:center;
+}
+
+.cta-heading{
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+  font-size:4rem;
+  line-height:1.5;
+}
+
+.button{
+  transition-duration:0.3s;
+}
+
+#footer{
+  padding: 5% 10% 1%; 
+  text-align:center;
+}
+
+.social-icon{
+  margin:20px 10px;
+
+}
+@media (max-width: 1028px){
+
+  #title{
+    text-align:center;
+  }
+
+  #features {
+    margin-top:0;}
+
+  .title-image{
+    padding-bottom:2rem;
+    position:static;
+    transform: rotate(0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+}

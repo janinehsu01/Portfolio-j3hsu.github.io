@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COGS3 - Best of 10!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Libre+Bodoni:wght@500&family=Playpen+Sans&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7dad9c8405.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Reports the values of the die and the sum -->
+    <h1 id="h1">Let's Roll the Dice!</h1>
+
+    <!-- Reports the outcome of the bet -->
+    <h2>
+      If the dice add to anything above 9, you win $5! <i class="fa-regular fa-face-laugh-beam" class="icon"></i><br>
+      If the dice add to 5 or less, you lose $5.<i class="fa-regular fa-face-sad-tear" class="icon"></i> <br>
+      Ready to play?
+    </h2>
+
+    <!-- JS will input the content -->
+    <h3></h3>
+    <p class="balance"></p>
+   
+  
+    <div>
+      <p> Do you want to roll the dice? </p>
+      <button type="button" class="btn btn-primary" onclick="letsPlay()">Let's Play Again!</button>
+    </div>
+
+    <div class="dice">
+      <img src="images/dice6.png" class="rounded-circle">
+      
+    </div>
+
+    <div class="dice">
+      <img src="images/dice6.png" class="rounded-circle">
+    </div>
+  </div>
+
+  <footer>
+    COGS3 - Dice Game Bet 10 - Janine Hsu - 11/27/2023
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

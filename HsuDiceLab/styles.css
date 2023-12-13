@@ -1,0 +1,68 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  margin-top:3rem;
+  margin-right:5rem;
+  margin-left:5rem;
+  display: inline-block;
+
+}
+
+
+body {
+  background-color: rgb(165, 245, 245);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Delius Unicase', cursive;
+  font-size: 5.5rem;
+  font-weight: 500;
+  color: #3cc6d0;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-family: 'Kite One', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  color: rgb(86, 51, 229)
+}
+
+p {
+  color: rgb(0, 136, 233);
+  font-family: 'Playpen Sans', cursive;
+}
+
+.balance{
+  color:black;
+  font-size:2rem;
+}
+img {
+  width: 100%;
+  background-color: purple;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+button {
+  margin: 30px;
+  height:3rem;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 5%;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
